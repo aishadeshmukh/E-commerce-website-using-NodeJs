@@ -104,6 +104,19 @@ The admin can view all order of a user, check the status of the order and update
  - URL - http://localhost:8000/api/product
  - URL - http://localhost:8000/api/product/categories
  
+ 
+
+
+### Robo3T for Database
+- The database is created in MongoDB.
+- Establish a new connection in Robo3T.
+- Create a database on your mongoDB terminal using below - 
+
+    ` use tshirt 
+    `
+
+- After each CRUD operation, you can find you saved database for the particular entity in Robo3T under the Collections folder of tshirt database.
+- Each attribute is visible which can further edited or deleted as required.
 
 
 
